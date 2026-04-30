@@ -8,51 +8,90 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hi! I'm **Hang Zhao (赵航)**, an MS student in Computer Science at
+[Northeastern University's Khoury College](https://www.khoury.northeastern.edu/) (GPA: 3.9/4.0).
+My research focuses on **computer vision**, **video understanding**, and **embodied AI** —
+particularly how robots can perceive, reason, and act safely in unstructured environments.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I have four workshop publications at CVPR, ICLR, and ACL, and serve as a reviewer for
+multiple AI/CV workshops. I am actively seeking **PhD positions (Fall/Spring 2027)** in
+robotics, computer vision, and embodied AI.
 
+My research interests include:
+- Robot Manipulation, Motion Planning, and Safe Autonomy
+- Video Understanding and Egocentric Perception
+- Foundation Models for Embodied AI
+- Multi-Agent Decision-Making
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
+- *2026.04*: 🎉 One paper accepted to **ACL 2026 Student Research Workshop (SRW)**.
+- *2026.02*: 🎉 Two papers accepted to **ICLR 2026 MemAgents Workshop**.
+- *2025.06*: 🎉 One paper accepted to **CVPR 2026 CV4Smalls Workshop**.
+- *2025.10*: Completed **2025 Embodied AI Hackathon** (Seeed Studio × NVIDIA × Hugging Face).
+- *2025.05*: 🥉 **3rd Place**, MongoDB Agentic Memory Hackathon — [WebBrain](https://www.youtube.com/watch?v=jSwj0qmJix0).
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+# 📝 Publications
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div><div class="badge">CV4Smalls @ CVPR 2026</div>
+<img src='images/cvpr2026.png' alt="sym" width="100%"></div>
+</div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**An Empirical Study of Fine-Tuning Strategies for Small-Data Video Action Recognition**
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Hang Zhao**, Jing Du
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Paper**](#) \| [**Code**](https://github.com/AllenZhaoHang)
+<strong><span class='show_paper_citations' data='wzZnh2oAAAAJ:XXXXX'></span></strong>
+
+Systematic benchmarking of VideoMAE fine-tuning strategies on HMDB-51 under limited-data regimes.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div><div class="badge">MemAgents @ ICLR 2026</div>
+<img src='images/iclr2026.png' alt="sym" width="100%"></div>
+</div>
+<div class='paper-box-text' markdown="1">
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Learning Safe Robot Planning from Unsafe Experiences: An Episodic Memory Approach for LLM-based Agents**
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Hang Zhao**, et al.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+[**Paper**](#) \| [**arXiv**](#)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+An episodic memory framework enabling LLM-based agents to extract safety constraints from past failure trajectories.
+</div>
+</div>
+
+# 🔬 Research Experience
+
+- **AR-Controlled Franka Robotic Arm** \| *Advisor: [Prof. Gilbert (Yang) Ye](https://gilbert-yangye.github.io/)*
+  - Designed AR teleoperation system (HTC VIVE + Intel RealSense D455) for 6-DoF Franka arm control
+  - C++/ROS control stack with real-time path planning and dynamic obstacle avoidance
+  - Sim-to-real validation pipeline in Gazebo and Unity
+
+# 💻 Industry Experience
+
+- *2025.08 – Present* &nbsp; **Backend Engineer**, [PayPal HQ](https://www.paypal.com), San Jose, CA
+- *2024.08 – 2024.12* &nbsp; **Full Stack Engineer Intern**, Schlumberger, Beijing
+- *2021.08 – 2023.08* &nbsp; **Software Engineer**, PayPal, Beijing
+
+# 📖 Education
+
+- *2023.09 – 2026.08* &nbsp; **MS in Computer Science**, Northeastern University (GPA: 3.9/4.0)
+- *2017 – 2021* &nbsp; **BS in Computer Science**, Tianjin University (GPA: 4.0/4.0)
+- *2007 – 2011* &nbsp; **BS in Material Physics**, Anhui University
+
+# 👔 Academic Service
+
+- Reviewer — MemAgents Workshop @ ICLR 2026
+- Reviewer — ALVR Workshop @ ACL 2026
+- Reviewer — CV4Smalls Workshop @ CVPR 2026
+- Reviewer — ICIC 2026 Workshop
