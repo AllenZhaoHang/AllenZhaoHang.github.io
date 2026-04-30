@@ -12,11 +12,11 @@ redirect_from:
 
 Hi! I'm **Hang Zhao (赵航)**, an MS student in Computer Science at
 [Northeastern University's Khoury College](https://www.khoury.northeastern.edu/) (GPA: 3.9/4.0).
-My research focuses on **computer vision**, **video understanding**, and **embodied AI** —
+My research focuses on **Robotics**, **Computer Vision**, **Video Understanding**, **Machine Learning/ Deep Learning/ Reinforcement learning**, and **Embodied AI** —
 particularly how robots can perceive, reason, and act safely in unstructured environments.
 
 I have four workshop publications at CVPR, ICLR, and ACL, and serve as a reviewer for
-multiple AI/CV workshops. I am actively seeking **PhD positions (Fall/Spring 2027)** in
+multiple AI/CV workshops including ICLR, ACL, and CVPR. I am actively seeking **PhD positions (Fall/Spring 2027)** in
 robotics, computer vision, and embodied AI.
 
 My research interests include:
@@ -26,10 +26,10 @@ My research interests include:
 - Multi-Agent Decision-Making
 
 # 🔥 News
-
+- *2026.04*: 📝 Submitted a paper to the **2nd Workshop on Foundation Models Meet Embodied Agents @ CVPR 2026**.
 - *2026.04*: 🎉 One paper accepted to **ACL 2026 Student Research Workshop (SRW)**.
+- *2026.03*: 🎉 One paper accepted to **CVPR 2026 CV4Smalls Workshop**.
 - *2026.02*: 🎉 Two papers accepted to **ICLR 2026 MemAgents Workshop**.
-- *2025.06*: 🎉 One paper accepted to **CVPR 2026 CV4Smalls Workshop**.
 - *2025.10*: Completed **2025 Embodied AI Hackathon** (Seeed Studio × NVIDIA × Hugging Face).
 - *2025.05*: 🥉 **3rd Place**, MongoDB Agentic Memory Hackathon — [WebBrain](https://www.youtube.com/watch?v=jSwj0qmJix0).
 
@@ -79,21 +79,24 @@ An episodic memory framework enabling LLM-based agents to extract safety constra
 
 # 💻 Industry Experience
 
-- *2025.08 – Present* &nbsp; **Backend Engineer**, [PayPal HQ](https://www.paypal.com), San Jose, CA
+- *2026 Summer (Incoming)* &nbsp; **SDE Intern**, [NVIDIA](https://www.nvidia.com), Santa Clara, CA
+- *2025.08 – 2025.12* &nbsp; **Backend Engineer**, [PayPal HQ](https://www.paypal.com), San Jose, CA
 - *2024.08 – 2024.12* &nbsp; **Full Stack Engineer Intern**, Schlumberger, Beijing
 - *2021.08 – 2023.08* &nbsp; **Software Engineer**, PayPal, Beijing
 
 # 📖 Education
 
 - *2023.09 – 2026.08* &nbsp; **MS in Computer Science**, Northeastern University (GPA: 3.9/4.0)
-- *2017 – 2021* &nbsp; **BS in Computer Science**, Tianjin University (GPA: 4.0/4.0)
-- *2007 – 2011* &nbsp; **BS in Material Physics**, Anhui University
+- &nbsp; **BS in Computer Science**, Tianjin University (GPA: 4.0/4.0)
+- &nbsp; **BS in Material Physics**, Anhui University
 
 # 👔 Academic Service
 
-- Reviewer — MemAgents Workshop @ ICLR 2026
-- Reviewer — ALVR Workshop @ ACL 2026
-- Reviewer — CV4Smalls Workshop @ CVPR 2026
-- Reviewer — ICIC 2026 Workshop
+- Reviewer, [ICLR 2026 Workshop on Memory-based Agents (MemAgents)](https://openreview.net/group?id=ICLR.cc/2026/Workshop/MemAgent/Reviewers)
+- Reviewer, [ACL 2026 Workshop on Advances in Language and Vision Research (ALVR)](https://openreview.net/group?id=aclweb.org/ACL/2026/Workshop/ALVR/Reviewers)
+- Reviewer, [CVPR 2026 Workshop CV4Smalls](https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CV4Smalls/Reviewers)
+- Reviewer, 10+ IEEE Conference/Journal Invitations (2025–2026)
 
+<div style="width:200px; height:200px; margin: 0 auto; overflow:hidden; transform:scale(0.6); transform-origin:top center;">
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=xeeqChdDjZtQysJf36K7QbmrOVjdLSqU4k-anLrpHxY"></script>
+</div>
