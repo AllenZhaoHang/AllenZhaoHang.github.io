@@ -1,26 +1,157 @@
-title: Hang Zhao (赵航)
-description: MS CS Student at Northeastern University | Computer Vision, Embodied AI, Robot Learning
-repository: AllenZhaoHang/AllenZhaoHang.github.io
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-google_analytics_id:       # 可留空，或去 analytics.google.com 申请后填入
-GOOGLE_SCHOLAR_ID: wzZnh2oAAAAJ
+# Site Settings
+title                    : "Hang Zhao (赵航)"
+description              : "MS CS Student at Northeastern University"
+repository               : "AllenZhaoHang/AllenZhaoHang.github.io"
+google_scholar_stats_use_cdn : false
 
+# google analytics
+google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+
+# SEO Related
+google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+
+# Site Author
 author:
-  name: Hang Zhao
-  avatar: images/photo.jpg  # 你的头像文件名
-  bio: >
-    MS Student @ Khoury College, Northeastern University.
-    Research: Computer Vision · Embodied AI · Robot Learning.
-  location: Boston, MA
-  employer: Northeastern University
-  
-  # 社交链接
-  email: zhao.hang1@northeastern.edu
-  github: AllenZhaoHang
-  linkedin: allenzhao05
-  google_scholar: wzZnh2oAAAAJ
-  
-  # 不用的可以注释掉或留空
-  twitter:
-  facebook:
-  instagram:
+  name             : "Hang Zhao"
+  avatar           : "images/photo.jpg"
+  bio              : "Northeastern University"
+  location         : "Boston, MA"
+  employer         :
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=wzZnh2oAAAAJ&hl=en"
+  email            : "zhao.hang1@northeastern.edu"
+  researchgate     :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "AllenZhaoHang"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      :
+  lastfm           :
+  linkedin         : "allenzhao05"
+  dblp             :
+  orcid            :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+timezone: America/New_York # Boston timezone
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
