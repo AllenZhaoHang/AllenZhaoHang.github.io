@@ -26,6 +26,7 @@ My research interests include:
 - Multi-Agent Decision-Making
 
 # 🔥 News
+- *2026.05*: 🎉 One paper accepted to **CAIS '26: Proceedings of the ACM Conference on AI and Agentic Systems**.
 - *2026.04*: 📝 Submitted a paper to the **2nd Workshop on Foundation Models Meet Embodied Agents @ CVPR 2026**.
 - *2026.04*: 🎉 One paper accepted to **ACL 2026 Student Research Workshop (SRW)**.
 - *2026.03*: 🎉 One paper accepted to **CVPR 2026 CV4Smalls Workshop**.
